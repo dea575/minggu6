@@ -13,8 +13,10 @@ class StudentController extends Controller
      */
     public function index()
     {
-        $students = Student::all();
-        return view('students.index',['student'=>$students]);
+        $students = Student::paginate(5);
+        $posts = Student::orderBy('Nim', 'desc');
+        return view('student.index', compact('student'));
+        with('i', (request()->input('page', 1) -1) *5);
     }
 
     /**
