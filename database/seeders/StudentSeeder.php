@@ -15,25 +15,25 @@ class StudentSeeder extends Seeder
     public function run()
     {
         DB::table('students')->insert([
-            'nim' => '2031710084',
-            'name' => 'Dea Vernanda R.N',
-            'class' => 'MI-2F',
-            'department' => 'JTI',
-            'phone_number' => '085879356056',
+            'nim' => '2031710042',
+            'name' => 'Sarindah Karina Br Sitepu',
+            'class' => 'MI2F',
+            'department' => 'Teknologi Informasi',
+            'phone_number' => '082267550842',
         ]);
         DB::table('students')->insert([
-            'nim' => '2031710107',
-            'name' => 'Kristin BR Gultom',
-            'class' => 'MI-2F',
-            'department' => 'JTI',
-            'phone_number' => '081803201717',
+            'nim' => '2031710160',
+            'name' => 'Achmad Nova Ardiansyah',
+            'class' => 'MI2F',
+            'department' => 'Teknologi Informasi',
+            'phone_number' => '081997122673',
         ]);
         DB::table('students')->insert([
-            'nim' => '2031710060',
-            'name' => 'Mustika Putri W',
-            'class' => 'MI-2F',
-            'department' => 'JTI',
-            'phone_number' => '085706469814',
+            'nim' => '2031710026',
+            'name' => 'Aisyah Ulil Maulina',
+            'class' => 'MI2F',
+            'department' => 'Teknologi Informasi',
+            'phone_number' => '980571729',
         ]);
     }
 }
